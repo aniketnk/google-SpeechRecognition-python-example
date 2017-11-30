@@ -13,4 +13,4 @@ Install the following dependencies:
 ```
 
 ### Execution:
-Using python3, run "7secondtranscript.py" .
+```Using python3, run "7secondtranscript.py" .```
