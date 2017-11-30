@@ -9,7 +9,7 @@ Time: 8 11 November 26
 Transcript: third run third run third one
 
 Time: 9 25 November 24
-Transcript: I am bored 
+Transcript: I am bored
 
 Time: 4 6 November 12
 Transcript: make a to do list

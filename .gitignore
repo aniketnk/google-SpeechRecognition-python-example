@@ -1,0 +1,5 @@
+*.wav
+.idea
+__pycache__
+Test Case
+*.txt
