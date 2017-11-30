@@ -1,0 +1,17 @@
+C:\Users\fastbum\PycharmProjects\Sudoku>py -3 mainSpeechAnalyse.py
+Press Enter to record person 1:
+recording...
+...finished recording
+
+Press Enter to record person 2:
+recording...
+...finished recording
+
+Sending audio to Google Speech Recognition...
+Sending audio to Google Speech Recognition...
+
+P1: mega cashback days are here
+P2: mega cashback days are here
+
+
+They said the same thing.
