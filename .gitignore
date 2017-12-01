@@ -5,3 +5,6 @@ Test Case
 *.txt
 test.py
 backup.py
+SpeechToText.py
+mainSpeechAnalyse.py
+recordAudio.py
