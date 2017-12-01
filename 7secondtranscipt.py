@@ -34,8 +34,10 @@ def addTranscript():
         transcript = r.recognize_google(file)
     except:
         print("Couldn't send or receive data.")
-        transcript = None
+        transcript = ""
 
+    if transcript == "":
+        return 0
     print("\nTranscript: " + transcript)
 
 
