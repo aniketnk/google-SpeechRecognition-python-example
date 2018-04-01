@@ -1,5 +1,5 @@
 '''
-This program records two audios through the microphone and adds it as a transcript to a text file
+This program records a 7 second audio clip through the microphone and adds it as a transcript to a text file
 
 Install the following dependencies
 SpeechRecognition	3.7.1	3.7.1
@@ -10,12 +10,15 @@ import time as tm
 import speech_recognition as sr
 import platform
 
-
-def addTranscript():
-
+def getCurrentTime():
     TimeStamp = list(map(lambda x: str(x) + ' ', tm.localtime()))
     months = ['','January ','February ','March ','April ','May ','June ','July ','August ','September ','October ','November ','December ']
     time = TimeStamp[3] + TimeStamp[4] + months[int(TimeStamp[1])] + TimeStamp[2]
+    return time
+
+def addTranscript():
+
+    time = getCurrentTime()
     print("Time: "+ time)
 
 
